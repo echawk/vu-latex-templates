@@ -1,0 +1,42 @@
+\documentclass[letterpaper]{turabian-researchpaper}
+\usepackage[utf8]{inputenc}
+\usepackage[autostyle, english = american]{csquotes}
+%\MakeOuterQuote{"}
+\usepackage[pass, letterpaper]{geometry}
+\usepackage[american]{babel}
+\usepackage[backend=biber,notes]{biblatex-chicago} % Can also include 'annotation' within the '[]'
+%\addbibresource{ref.bib}
+\usepackage{hyperref} %Allows links to be clicked
+\usepackage{wrapfig}
+\usepackage{setspace} %\doublespace
+\usepackage{fancyhdr} % allows the setting of a custom header
+\pagestyle{fancy} %fancyhdr package
+\fancyhf{} %clears out prev header/footer
+\rhead{\hfill \thepage
+	\\ \hfill ?name?
+	\\ \hfill ?class? }
+\renewcommand\headrulewidth{0pt} %gets rid of the bar > sets it to 0pt
+
+\title{?title?}
+\subtitle{}
+\author{?name?}
+\course{?class?}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\doublespacing
+
+\begin{center}
+	\textbf{?title?}
+\end{center}
+
+Write Here.
+
+
+%\newpage
+%\nocite{*} % Removing the comment will print out everything in the .bib file
+%\printbibliography
+
+\end{document}

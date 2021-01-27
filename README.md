@@ -15,7 +15,7 @@ pdflatex <file>.tex
 
 That will compile your document, and add in citations.
 
-* **NOTE:** If you don't need bibliography support, you can just run: `pdflatex <file>.tex` and be set.
+* If you don't need bibliography support, you can just run: `pdflatex <file>.tex` and be set.
 
 ## Which Template?
 
@@ -27,3 +27,4 @@ Usually your Professor will tell you which paper format s/he will expect. But in
 | Heath Science  | APA7             | APA            |
 | Psychology     | APA7             | APA            |
 | Valpo Core     | MLA              | MLA            |
+

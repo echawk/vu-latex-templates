@@ -17,3 +17,14 @@ That will compile your document, and add in citations.
 
 If you don't need bibliography support, you can just run:
 `pdflatex <file>.tex` and be set.
+
+## Which Template?
+
+Usually your Professor will tell you which paper format s/he will expect. But in the event that they *don't* tell you, here are some examples:
+
+| Class Type     | Formatting Style | Citation Style |
+| :------:       | :--------:       | :------:       |
+| Christ College | Chicago          | Chicago        |
+| Heath Science  | APA7             | APA            |
+| Psychology     | APA7             | APA            |
+| Valpo Core     | MLA              | MLA            |

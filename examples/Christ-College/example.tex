@@ -16,6 +16,7 @@
 	\\ \hfill John Doe
 	\\ \hfill CC110 }
 \renewcommand\headrulewidth{0pt} %gets rid of the bar > sets it to 0pt
+\newcommand{\ccparencite}[1]{(\citeauthor{#1})}
 
 \title{My Very Important Paper (Due Saturday)}
 \subtitle{}
@@ -41,9 +42,9 @@ do a footnote style citation\autocite{akut, 34}. Now that looks \textbf{better}.
 \section{Here's a section heading!}
 
 
-Blah blah blah.
+Blah blah blah. Here's how to cite with your own custom citation command\ccparencite{kant, 23}.
 
-\subsection{Here's a subsection...}
+\subsection{Here's a subsection\ldots}
 \subsubsection{And a sub-subsection...}
 
 Etc. Etc.

@@ -15,8 +15,7 @@ pdflatex <file>.tex
 
 That will compile your document, and add in citations.
 
-If you don't need bibliography support, you can just run:
-`pdflatex <file>.tex` and be set.
+* **NOTE:** If you don't need bibliography support, you can just run: `pdflatex <file>.tex` and be set.
 
 ## Which Template?
 

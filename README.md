@@ -28,3 +28,7 @@ Usually your Professor will tell you which paper format s/he will expect. But in
 | Psychology     | APA7             | APA            |
 | Valpo Core     | MLA              | MLA            |
 
+## I need to see an example...
+
+All of the example documents are under `examples/`, and should hopefully illustrate how to to
+do all of the things you need to do in word, in LaTeX.

@@ -26,6 +26,7 @@ Usually your Professor will tell you which paper format s/he will expect. But in
 | Christ College | Chicago          | Chicago        |
 | Heath Science  | APA7             | APA            |
 | Psychology     | APA7             | APA            |
+| Theology       | Chicago          | SBL            |
 | Valpo Core     | MLA              | MLA            |
 
 ## I need to see an example...

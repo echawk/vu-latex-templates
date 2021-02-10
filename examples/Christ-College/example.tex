@@ -16,7 +16,12 @@
 	\\ \hfill John Doe
 	\\ \hfill CC110 }
 \renewcommand\headrulewidth{0pt} %gets rid of the bar > sets it to 0pt
+% this is an example of how to define a custom command, in this case,
+% we are defining a new command '\ccparencite' that can be used to parenthetically cite sources.
 \newcommand{\ccparencite}[1]{(\citeauthor{#1})}
+
+% here is a command that just prints "Valparaiso University"
+\newcommand{\vu}{Valparaiso University}
 
 \title{My Very Important Paper (Due Saturday)}
 \subtitle{}
@@ -47,7 +52,7 @@ Blah blah blah. Here's how to cite with your own custom citation command\ccparen
 \subsection{Here's a subsection\ldots}
 \subsubsection{And a sub-subsection...}
 
-Etc. Etc.
+Etc. Etc. \vu\vu\vu
 
 Let's cite Akutagawa again\autocite{akut}, because the citation will be different.
 
@@ -59,7 +64,7 @@ how to ``sign'' your paper.
 
 \noindent\rule{\textwidth}{1pt} % makes a line that goes across the page.
 \begin{center}
-	\textit{I have not given or received nor have I tolerated other's use of unauthorized aid.}
+	\textit{I have not given or received nor have I tolerated others' use of unauthorized aid.}
 	\newline
 	\textit{- John Doe}
 \end{center}

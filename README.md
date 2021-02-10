@@ -33,3 +33,7 @@ Usually your Professor will tell you which paper format s/he will expect. But in
 
 All of the example documents are under `examples/`, and should hopefully illustrate how to to
 do all of the things you need to do in word, in LaTeX.
+
+## What packages do I need?
+
+All of the packages that are used in these templates are listed in PACKAGES.md.

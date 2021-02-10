@@ -3,7 +3,7 @@
 NOTE: This is really just for reference, most LaTeX installations install *every* package as the default.
 
 | Package  | Reason                                                                                        |
-| ------   | -----  ------------- ---- ---- ---- ---- ---- ---- ---- ---- ----                             |
+| :------: | :-----------------------------------------------------:                                       |
 | babel    | "Americanizes" the bibliography; changes certain conventions                                  |
 | biblatex | Enables Bibliography management in LaTeX                                                      |
 | csquotes | Changes the behavior of quotes; used to make them "American"; only used for the bibliography  |

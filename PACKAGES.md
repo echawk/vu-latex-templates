@@ -1,6 +1,6 @@
 # List of Needed LaTeX packages
 
-NOTE: This is really just for reference, most LaTeX installations install *every* package as the default.
+NOTE: This is really just for reference, most LaTeX installations install *every* package by default.
 
 | Package  | Reason                                                                                        |
 | :------: | :-----------------------------------------------------:                                       |

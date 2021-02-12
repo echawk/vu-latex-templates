@@ -3,9 +3,22 @@
 \usepackage[autostyle, english = american]{csquotes}
 %\MakeOuterQuote{"} % uncomment this line if you want to have 'smart' quotes like in word
 \usepackage[pass, letterpaper]{geometry}
-\usepackage[american]{babel}
-\usepackage[backend=biber,notes,style=sbl]{biblatex} % Can also include 'annotation' within the '[]'
-\addbibresource{CC.bib} % Add our bibliography file
+%\usepackage[american]{babel}
+\usepackage[backend=biber,style=sbl]{biblatex} % Can also include 'annotation' within the '[]'
+% bibleref is used to quote the bible
+\usepackage{bibleref}
+% bibleref also supports different ways of citing the bible:
+% default  -  2 Corinthians 12:1-5
+% jerusalem - 2 Co 12:1-5
+% anglosaxon - II Cor. XII.1-5
+% JEH        - 2 Cor. xii. 1-5
+% NTG        - 2 Cor xii, 1-5
+% MLA        - 2 Cor. xii.1-5
+% Chicago    - 2 Cor. xii: 1-5
+% text       - Second Epistle to the Corinthians, chapter twelve, verse one to five
+% You can set the style by addding:
+%\biblerefstyle{<style>}
+\addbibresource{ref.bib} % Add our bibliography file
 \usepackage{hyperref} %Allows links to be clicked
 \usepackage{wrapfig}
 \usepackage{setspace} %\doublespace
@@ -47,8 +60,12 @@ do a footnote style citation\autocite{akut, 34}. Now that looks \textbf{better}.
 \section{Here's a section heading!}
 
 
-Blah blah blah. Here's how to cite with your own custom citation command\ccparencite{kant, 23}.
-
+Blah blah blah.
+Here's how to cite with your own custom citation command\ccparencite{kant, 23}.
+Here I am going to cite a bible verse (\bibleverse{ICor}(2:1-14)).
+\biblerefstyle{jerusalem}
+Why not cite the new testament with the jerusalem style (\bibleverse{John}(1:1-5)).
+%\biblerefstyle{default} % return the style back to default
 \subsection{Here's a subsection\ldots}
 \subsubsection{And a sub-subsection...}
 

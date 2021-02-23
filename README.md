@@ -23,6 +23,7 @@ Usually your Professor will tell you which paper format s/he will expect. But in
 
 | Class Type     | Formatting Style | Citation Style |
 | :------:       | :--------:       | :------:       |
+| Chemisty       | APA7             | APA            |
 | Christ College | Chicago          | Chicago        |
 | Heath Science  | APA7             | APA            |
 | Psychology     | APA7             | APA            |

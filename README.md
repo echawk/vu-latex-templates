@@ -47,3 +47,11 @@ xelatex <file>.tex
 biber <file>
 xelatex <file>.tex
 ```
+
+## My professor is insistent on using 'Times New Roman' as the font! What do I do?
+
+You need to use `xelatex` to compile your document, as well as add the following lines to the beginning of your document:
+```
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+```

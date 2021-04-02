@@ -20,3 +20,4 @@ NOTE: This is really just for reference, most LaTeX installations install *every
 | fontspec            | Needed for changing fonts in XeLaTeX                                                          |
 | apa                 | Formatting for APA6th Edition                                                                 |
 | apa7                | Formatting for APA7th Edition                                                                 |
+| biblatex-chicago    | Chicago style bibliographies for biblatex                                                     |

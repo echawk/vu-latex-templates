@@ -1,0 +1,3 @@
+- [ ] Clean up the `examples/` directory
+- [ ] Add in a template for math/statistics
+- [ ] Add in a template for the different disciplines of engineering
